@@ -1,5 +1,5 @@
 # Analysis of Online User Comments
-2020 has been a rollercoaster ride so far- a worldwide pandemic, economic downturn, racial unrest following the death of George Floyd, etc. As the United States becomes increasingly divided, I wanted to collect online user comments and analyze them to extract insightful patterns. This analysis was based on web scraping comments from Disqus, an online public comment sharing platform where users create profiles to participate in interactive conversations. 
+2020 has truly been a rollercoaster ride of a year so far- a worldwide pandemic, economic downturn, racial unrest following the death of George Floyd, etc. As the United States becomes increasingly divided, I wanted to collect online user comments and analyze them to extract insightful patterns. This analysis was based on web scraping comments from Disqus, an online public comment sharing platform where users create profiles to participate in interactive conversations. 
 
 # Overview - Topic Modeling
 ![hate_overview](images/hate_overview.png)
