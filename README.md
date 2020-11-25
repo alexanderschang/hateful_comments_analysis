@@ -20,7 +20,9 @@ Diving even deeper, the top 10 keywords and representative documents (comments) 
 ![hate_fluctuation](images/hate_fluctuation.png)
 ![proportion_to_total](images/proportion_to_total.png)
 
-Interestingly, the proportion of hate speech (to total volume) started increasing since May while the proportion of offensive speech began decreasing. In fact, the hate and offensive speech proportions had been moving inversely, which indicates that users might've started substituting offensive words with more hateful language. 
+The volume of hate speech (figure 1: Hate Speech Fluctuation) moves in the same directions as the overall topic proportions over time, which peaks at August and September. 
 
-We can also take a look at the offensive speech topics at a high level: there are a few interesting yet distinct topics, such as topic 13 where people are talking about how they would like to stop watching pro sports such as the NBA. In addition to the racist and violent topics, another fascinating one is topic 7, where users are saying Biden would "get covid an hour before the presidential debate." 
+Interestingly, the proportion of hate speech (to total volume) started increasing since May (figure 2: Proportion to Total Volume) while the proportion of offensive speech began decreasing. In fact, the hate and offensive speech proportions had been moving inversely, which indicates that users might've started substituting offensive words with more hateful language.
+
+We can also take a look at the offensive speech topics at a high level. These comments are still racist and bipartison but to a lesser extent compared to the hate speech. there are a few interesting yet distinct "offensive" topics, such as topic 13 where people are talking about how they no longer support watching pro sports such as the NBA. In addition to the racist and violent topics, another fascinating one is topic 7, where users are saying Biden would "get covid an hour before the presidential debate." 
 ![offensive_overview](images/offensive_overview.png)
