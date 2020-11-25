@@ -1,5 +1,5 @@
-# Analysis of Online User Comments
-2020 has truly been a rollercoaster ride of a year so far- a worldwide pandemic, economic downturn, racial unrest following the death of George Floyd, etc. As the United States becomes increasingly divided, I wanted to collect online user comments and analyze them to extract insightful patterns. This analysis was based on web scraping comments from Disqus, an online public comment sharing platform where users create profiles to participate in interactive conversations. 
+# An Analysis of Hateful Online User Comments
+2020 has truly been a rollercoaster ride of a year so far- a worldwide pandemic, economic downturn, racial unrests following the death of George Floyd, just to name a few. In light of recent events, I wanted to analyze online user comments to uncover the different types of online hate speech and extract insightful patterns. This analysis was based on web scraping comments from Disqus, an online public comment sharing platform where users create profiles to participate in interactive conversations. 
 
 # Overview - Topic Modeling
 ![hate_overview](images/hate_overview.png)
@@ -7,15 +7,14 @@ Topic Modeling is an unsupervised NLP method which aims to discover the abstract
 
 It's evident that in terms of hate speech, comments are either extremely racist (topic 1) or indicate violent intentions/behaviors (topic 4). 
 
-# Topic Proportions 
 ![proportion_bargraph](images/proportion_bargraph.png)
 ![proportions_overtime](images/proportions_overtime.png)
-Data visualizations are also included to strengthen the analysis. For example, we can see that almost 20% of tokenized comments fall under topic 9, a highly racist topic with racial slurs and demeaning words. In addition, the proportion of comments under this topic (pink line) also began spiking from August to September, which corresponds to the heightened racial tensions in the United States following the Black Lives Matter movement and months of civil unrest during the summer. Note that the topic proportions over time graph is supposed to be interactive, which utilizes the plotly library. 
+Data visualizations are also included to strengthen the analysis. For example, we can see that almost 20% of tokenized comments fall under topic 9, a highly racist topic with racial slurs and demeaning words. In addition, the proportion of comments under this topic (pink line) also began spiking from August to September, which corresponded to the heightened racial tensions in the United States following the Black Lives Matter movement and months of civil unrest during the summer. Note that the topic proportions over time graph is supposed to be interactive, which utilizes the plotly library. 
 
-# Detailed Topic Analysis 
+# Detailed Analysis 
 ![example_topic](images/example_topic.png)
 
-Diving even deeper, the top 10 keywords and representative documents (comments) are used to describe a given topic. In this example, topic 4 is filled with users attacking the Democrats (i.e. "Obama administration criminals like Biden") as well as displaying violent intentions (i.e. "cut all their heads off"). 
+Diving even deeper, the top 10 keywords and representative documents (comments) are used to describe a given topic. In this example, topic 4 is filled with comments attacking the Democrats (i.e. "Obama administration criminals like Biden") as well as displaying violent intentions (i.e. "cut all their heads off"). Indeed, the top keywords of that topic correspond ot the violence mentioned in the representative comments mentioned above. 
 
 ![hate_fluctuation](images/hate_fluctuation.png)
 ![proportion_to_total](images/proportion_to_total.png)
