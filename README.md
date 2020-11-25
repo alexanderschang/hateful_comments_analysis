@@ -7,11 +7,12 @@ Topic Modeling is an unsupervised NLP method which aims to discover the abstract
 
 It's evident that in terms of hate speech, comments are either extremely racist (topic 1) or indicate violent intentions/behaviors (topic 4). 
 
+# Topic Proportions 
 ![proportion_bargraph](images/proportion_bargraph.png)
 ![proportions_overtime](images/proportions_overtime.png)
 Data visualizations are also included to strengthen the analysis. For example, we can see that almost 20% of tokenized comments fall under topic 9, a highly racist topic with racial slurs and demeaning words. In addition, the proportion of comments under this topic (pink line) also began spiking from August to September, which corresponds to the heightened racial tensions in the United States following the Black Lives Matter movement and months of civil unrest during the summer. Note that the topic proportions over time graph is supposed to be interactive, which utilizes the plotly library. 
 
-# Detailed Analysis 
+# Detailed Topic Analysis 
 ![example_topic](images/example_topic.png)
 
 Diving even deeper, the top 10 keywords and representative documents (comments) are used to describe a given topic. In this example, topic 4 is filled with users attacking the Democrats (i.e. "Obama administration criminals like Biden") as well as displaying violent intentions (i.e. "cut all their heads off"). 
