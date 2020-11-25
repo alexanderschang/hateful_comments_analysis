@@ -8,6 +8,7 @@ Topic Modeling is an unsupervised NLP method which aims to discover the abstract
 
 It's evident that in terms of hate speech, comments are either extremely racist (topic 1) or indicate violent intentions/behaviors (topic 4). 
 
+# Topic Proportions
 ![proportion_bargraph](images/proportion_bargraph.png)
 ![proportions_overtime](images/proportions_overtime.png)
 Data visualizations are also used to analyze topic proportions. For example, we can see that almost 20% of tokenized comments fall under topic 9, a highly racist topic with racial slurs and demeaning words. In addition, the proportion of comments under this topic (pink line) also began spiking from August to September, which corresponded to the heightened racial tensions in the United States following the Black Lives Matter movement and months of civil unrest during the summer. Note that the topic proportions over time graph is supposed to be interactive, which utilizes the plotly library. 
@@ -24,5 +25,6 @@ The volume of hate speech (figure 1: Hate Speech Fluctuation) moves in the same 
 
 Interestingly, the proportion of hate speech (to total volume) started increasing since May (figure 2: Proportion to Total Volume) while the proportion of offensive speech began decreasing. In fact, the hate and offensive speech proportions had been moving inversely, which indicates that users in general might've started substituting offensive words with more hateful language.
 
+# Offensive Speech
 We can also take a look at the offensive speech topics at a high level. These comments are still racist and bipartison but to a lesser extent compared to the hate speech. There are a few interesting yet distinct "offensive" topics, such as topic 13 where people were talking about how they no longer support watching pro sports such as the NBA. In addition to the racist and violent topics, another fascinating one is topic 7, where users were saying Biden would "get covid an hour before the presidential debate." 
 ![offensive_overview](images/offensive_overview.png)
