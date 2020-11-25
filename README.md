@@ -14,12 +14,12 @@ Data visualizations are also included to strengthen the analysis. For example, w
 # Detailed Analysis 
 ![example_topic](images/example_topic.png)
 
-Diving even deeper, the top 10 keywords and representative documents (comments) are used to describe a given topic. In this example, topic 4 is filled with users attacking the Democrats (i.e. Obama administration criminals like Biden) as well as displaying violent intentions (i.e. cut all their heads off). 
+Diving even deeper, the top 10 keywords and representative documents (comments) are used to describe a given topic. In this example, topic 4 is filled with users attacking the Democrats (i.e. "Obama administration criminals like Biden") as well as displaying violent intentions (i.e. "cut all their heads off"). 
 
 ![hate_fluctuation](images/hate_fluctuation.png)
 ![proportion_to_total](images/proportion_to_total.png)
 
-Interestingly, the proportion of hate speech (to total volume) started increasing since May while the proportion of offensive speech began decreasing. In facts, the hate and offensive speech proportions had been moving inversely, which indicates that users might've started substituting offensive words with more hateful language. 
+Interestingly, the proportion of hate speech (to total volume) started increasing since May while the proportion of offensive speech began decreasing. In fact, the hate and offensive speech proportions had been moving inversely, which indicates that users might've started substituting offensive words with more hateful language. 
 
 We can also take a look at the offensive speech topics at a high level: there are a few interesting yet distinct topics, such as topic 13 where people are talking about how they would like to stop watching pro sports such as the NBA. In addition to the racist and violent topics, another fascinating one is topic 7, where users are saying Biden would "get covid an hour before the presidential debate." 
 ![offensive_overview](images/offensive_overview.png)
