@@ -1,5 +1,5 @@
 # An Analysis of Hateful Online User Comments
-2020 has truly been a rollercoaster ride of a year so far- a worldwide pandemic, economic downturn, racial unrests following the death of George Floyd, just to name a few. In light of recent events, I wanted to analyze online user comments to uncover the different types of online hate speech and extract insightful patterns. This analysis was based on web scraping comments from Disqus, an online public comment sharing platform where users create profiles to participate in interactive conversations. 
+2020 has truly been a rollercoaster ride of a year so far- a worldwide pandemic, economic downturn, racial unrest following the death of George Floyd, just to name a few. In light of recent events, I wanted to analyze online user comments to uncover the different types of online hate speech and extract insightful patterns. This analysis was based on web scraping comments from Disqus, an online public comment sharing platform where users create profiles to participate in interactive conversations. 
 
 # Overview - Topic Modeling
 ![hate_overview](images/hate_overview.png)
