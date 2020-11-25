@@ -1,3 +1,4 @@
+
 # An Analysis of Hateful Online User Comments
 2020 has truly been a rollercoaster ride of a year so far- a worldwide pandemic, economic downturn, racial unrest following the death of George Floyd, just to name a few. In light of recent events, I wanted to analyze online user comments to uncover the different types of online hate speech and extract insightful patterns. This analysis was based on web scraping comments from Disqus, an online public comment sharing platform where users create profiles to participate in interactive conversations. 
 
@@ -14,7 +15,7 @@ Data visualizations are also included to strengthen the analysis. For example, w
 # Detailed Analysis 
 ![example_topic](images/example_topic.png)
 
-Diving even deeper, the top 10 keywords and representative documents (comments) are used to describe a given topic. In this example, topic 4 is filled with comments attacking the Democrats (i.e. "Obama administration criminals like Biden") as well as displaying violent intentions (i.e. "cut all their heads off"). Indeed, the top keywords of that topic correspond ot the violence mentioned in the representative comments mentioned above. 
+Diving even deeper, the top 10 keywords and representative documents (comments) are used to describe a given topic. In this example, topic 4 is filled with comments attacking the Democrats (i.e. "Obama administration criminals like Biden") as well as displaying violent intentions (i.e. "cut all their heads off"). Indeed, the top keywords of that topic correspond to the violence mentioned in the representative comments mentioned above. 
 
 ![hate_fluctuation](images/hate_fluctuation.png)
 ![proportion_to_total](images/proportion_to_total.png)
