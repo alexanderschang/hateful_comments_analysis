@@ -9,7 +9,7 @@ It's evident that in terms of hate speech, comments are either extremely racist 
 
 ![proportion_bargraph](images/proportion_bargraph.png)
 ![proportions_overtime](images/proportions_overtime.png)
-Data visualizations are also included to strengthen the analysis. For example, we can see that almost 20% of tokenized comments fall under topic 9, a highly racist topic with racial slurs and demeaning words. In addition, the proportion of comments under this topic (pink line) also began spiking from August to September, which corresponds to the heightened racial tensions in the United States following the Black Lives Matter movement and months of protests during the summer. Note that the topic proportions over time graph is supposed to be interactive, which utilizes the plotly library. 
+Data visualizations are also included to strengthen the analysis. For example, we can see that almost 20% of tokenized comments fall under topic 9, a highly racist topic with racial slurs and demeaning words. In addition, the proportion of comments under this topic (pink line) also began spiking from August to September, which corresponds to the heightened racial tensions in the United States following the Black Lives Matter movement and months of civil unrest during the summer. Note that the topic proportions over time graph is supposed to be interactive, which utilizes the plotly library. 
 
 # Detailed Analysis 
 ![example_topic](images/example_topic.png)
