@@ -15,5 +15,5 @@ Data visualizations are also included to strengthen the analysis. For example, w
 ![example_topic](images/example_topic.png)
 Diving even deeper, the top 10 keywords and representative documents (comments) are used to describe a given topic. In this example, topic 4 is filled with users attacking the Democrats (i.e. Obama administration criminals like Biden) as well as displaying violent intentions (i.e. cut all their heads off). 
 
-[hate_fluctuation](images/hate_fluctuation.png)
-[proportion_to_total](images/proportion_to_total.png)
+![hate_fluctuation](images/hate_fluctuation.png)
+![proportion_to_total](images/proportion_to_total.png)
