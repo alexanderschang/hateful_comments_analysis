@@ -1,4 +1,4 @@
-# Analysis of Hateful Online Comments
+# Analysis of Online User Comments
 This analysis was based on web scraping comments from Disqus, an online public comment sharing platform where users create profiles to participate in interactive conversations. 
 
 ![hate_overview](images/hate_overview.png)
@@ -12,6 +12,8 @@ It's evident that in terms of hate speech, comments are either extremely racist 
 Data visualizations are also included to strengthen the analysis. For example, we can see that almost 20% of tokenized comments fall under topic 9, a highly racist topic with racial slurs and demeaning words. In addition, the proportion of comments under this topic (pink line) also began spiking from August to September, which corresponds to the heightened racial tensions in the United States following the Black Lives Matter movement and months of protests during the summer. Note that the topic proportions over time graph is supposed to be interactive, which utilizes the plotly library. 
 
 # Detailed Analysis 
-Diving even deeper, we can analyze more details for a given topic: 
 ![example_topic](images/example_topic.png)
-The top 10 keywords and representative documents (comments) are used to describe a given topic. 
+Diving even deeper, the top 10 keywords and representative documents (comments) are used to describe a given topic. In this example, topic 4 is filled with users attacking the Democrats (i.e. Obama administration criminals like Biden) as well as displaying violent intentions (i.e. cut all their heads off). 
+
+[hate_fluctuation](images/hate_fluctuation.png)
+[proportion_to_total](images/proportion_to_total.png)
